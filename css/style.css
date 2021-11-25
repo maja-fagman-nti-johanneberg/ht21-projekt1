@@ -1,0 +1,30 @@
+header {
+    background-color: black;
+
+}
+
+#hamburgarmeny{
+
+    
+}
+
+#topp{
+border: 5px solid white;
+
+}
+
+#mitten{
+    border: 5px solid white;
+    
+}
+
+#botten{
+    border: 5px solid white;
+    
+}
+
+#logga{
+    width: 10rem;
+    height: 8rem;
+
+}
