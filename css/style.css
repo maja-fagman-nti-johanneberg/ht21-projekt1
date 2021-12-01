@@ -1,6 +1,6 @@
 header {
     background-color: black;
-    height: 10rem;
+    height: 7.5rem;
     display: flex;
     justify-content: space-between;
 
@@ -18,7 +18,7 @@ header {
 }
 
 #logga{
-    width: 10rem;
+    width: 13rem;
     height: 8rem;
 
 }
