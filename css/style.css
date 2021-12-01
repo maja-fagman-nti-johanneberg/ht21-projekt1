@@ -1,40 +1,29 @@
 header {
     background-color: black;
     height: 10rem;
-    display: block;
+    display: grid;
     grid-template-areas: 
     'logga meny';
+    grid-template-rows: 1fr 1fr;
 
 }
 
 .hamburgarmeny{
-    display: block;
+    display: grid;
     grid-area: meny;
-    justify-content: left;
-    width: 10rem;
+    justify-content: space-between;
+    width: 5rem;
 
 }
 
-#topp{
-    display: block;
-border: 5px solid green;
-
-}
-
-#mitten{
-    display: block;
-    border: 5px solid white;
-    
-}
-
-#botten{
-    display: block;
-    border: 5px solid white;
-    
+.linje{
+    width:50%;
+    border: white solid 2px;
+    margin-bottom: 0.5em;
 }
 
 #logga{
-    display: block;
+    display: grid;
     grid-area: logga;
     width: 10rem;
     height: 8rem;
