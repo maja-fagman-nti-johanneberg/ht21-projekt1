@@ -1,30 +1,23 @@
 header {
     background-color: black;
     height: 10rem;
-    display: grid;
-    grid-template-areas: 
-    'logga meny';
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
 
 }
 
-.hamburgarmeny{
-    display: grid;
-    grid-area: meny;
-    justify-content: space-between;
-    width: 5rem;
+#hamburgare{
+   margin: 1rem;
 
 }
 
 .linje{
-    width:50%;
+    width:2rem;
     border: white solid 2px;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
 }
 
 #logga{
-    display: grid;
-    grid-area: logga;
     width: 10rem;
     height: 8rem;
 
