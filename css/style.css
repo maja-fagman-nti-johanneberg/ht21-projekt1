@@ -2,9 +2,12 @@
     display:grid;
     grid-template-areas: 
     'hd'
-    'bl';
-    grid-template-rows: 7.5rem 1fr;
+    'bl'
+    'se'
+    'ft';
+    grid-template-rows: 7.5rem 1fr 10rem 8rem;
     width:100%;
+    background-color: rgb(54, 53, 53);
 }
 
 header {
@@ -40,3 +43,57 @@ header {
 
 }
 
+section{
+    grid-area: se;
+    display:flex; 
+    justify-content: center;
+
+}
+
+#a1{
+
+    background-color: lightgray;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+#a2{
+
+    background-color: lightgray;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+#a3{
+
+    background-color: lightgray;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+
+footer{
+    grid-area: ft; 
+    background-color: grey;
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
