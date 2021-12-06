@@ -3,30 +3,35 @@
     grid-template-areas: 
     'hd'
     'bl'
-    'se'
+    'se1'
+    'se2'
     'ft';
-    grid-template-rows: 7.5rem 1fr 10rem 8rem;
+    grid-template-rows: 7.5rem 1fr 10rem 10rem;
     width:100%;
     background-color: rgb(54, 53, 53);
+    font-family: 'Readex Pro', sans-serif;
 }
 
 header {
     background-color: black;
-    
     display: flex;
     justify-content: space-between;
     grid-area: hd;
 }
 
-#hamburgare{
-   margin: 1rem;
-
+li{
+    color: white;
+    display: inline;
+    margin-left: 2rem;
+    font-size: 1.5rem;
 }
 
-.linje{
-    width:2rem;
-    border: white solid 2px;
-    margin-bottom: 0.5rem;
+ul{
+    list-style-type: none;
+}
+
+nav{
+    padding:2rem;
 }
 
 #logga{
@@ -43,8 +48,22 @@ header {
 
 }
 
-section{
-    grid-area: se;
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+
+#se1{
+    grid-area: se1;
     display:flex; 
     justify-content: center;
 
@@ -77,23 +96,64 @@ section{
     margin-top: 5rem;
 }
 
+#se2{
+    grid-area: se1;
+    display:flex; 
+    justify-content: center;
+
+}
+
+#a4{
+
+    background-color: lightgray;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+#a5{
+
+    background-color: lightgray;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+#map{
+    width: 15rem;
+    margin: 2rem 2rem 4rem 2rem;
+
+}
 
 footer{
     grid-area: ft; 
     background-color: grey;
+    display:flex; 
+    justify-content:space-around;
+}
+
+#first{
+    margin: 7rem;
+    margin-top: 3rem;
 
 }
 
-h3{
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
+#second{
+    margin: 7rem;
+    margin-top: 3rem;
 
 }
 
-p{
+#third{
+    margin: 7rem;
+    margin-top: 3rem;
+
+}
+
+h4{
+    font-size: 1.7rem;
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
-
 }
