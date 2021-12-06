@@ -19,6 +19,27 @@ header {
     grid-area: hd;
 }
 
+.header{
+    text-decoration: none;
+    color: white;
+
+}
+.header:hover{
+    color: lightgray;
+
+}
+
+.main{
+    text-decoration: none;
+    color: black;
+
+}
+
+.main:hover{
+    color:rgb(128, 125, 125);
+
+}
+
 li{
     color: white;
     display: inline;
@@ -156,4 +177,9 @@ h4{
     font-size: 1.7rem;
     display: flex;
     justify-content: center;
+}
+
+.footer{
+    font-size: 1rem;
+
 }
