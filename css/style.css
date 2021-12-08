@@ -131,20 +131,24 @@ p{
     height: 20rem;
     margin: 3rem;
     margin-top: 5rem;
+    max-height: 25rem;
 }
 
 #a5{
 
     background-color: lightgray;
     width: 20rem;
-    height: 20rem;
-    margin: 3rem;
     margin-top: 5rem;
+    justify-content: center;
+    display: flex;
+    max-height: 20rem;
+    grid-column: 1rem 1rem;
+   
 }
 
 #map{
     width: 15rem;
-    margin: 2rem 2rem 4rem 2rem;
+    margin: auto;
 
 }
 
