@@ -6,7 +6,7 @@
     'se1'
     'se2'
     'ft';
-    grid-template-rows: 7.5rem 1fr 10rem 10rem;
+    grid-template-rows: 7.5rem 40rem 1fr 10rem;
     width:100%;
     background-color: rgb(54, 53, 53);
     font-family: 'Readex Pro', sans-serif;
@@ -67,7 +67,7 @@ nav{
 
 #startbild{
     grid-area: bl;
-    background-image:"img/Startbild.jpg";
+    background-image: url('../img/Startbild.jpg');
     border: 4px solid black;
     background-size: cover; 
 
@@ -293,4 +293,70 @@ p{
 
 #bottomright {
     margin: 2rem;
+}
+
+#main3{
+    display: grid;
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+    grid-template-areas:
+    'as'
+    's1';
+
+}
+
+#aboutus{
+    justify-content: center;
+    display: flex;
+    grid-area: as;
+    margin: 2rem;
+
+}
+
+#s1{
+    grid-area: s1;
+    display:flex; 
+    justify-content: center;
+    grid-template-areas: 
+    'a1 a2 a3'
+    ;
+
+}
+
+#a1{
+    grid-area: a1;
+    background-color: lightgray;
+    width: 20rem;
+    margin-top: 5rem;
+    margin: 3rem;
+    justify-content: center;
+    display: flex;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#map{
+    width: 15rem;
+    margin: 2.5rem;
+
+}
+
+#a2{
+    grid-area: a2;
+    background-color: lightgray;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+#a3{
+    grid-area: a3;
+    background-color: lightgray;
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem;
+    margin-top: 5rem;
 }
