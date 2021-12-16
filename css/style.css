@@ -8,7 +8,7 @@
     'ft';
     grid-template-rows: 7.5rem 40rem 1fr 10rem;
     width:100%;
-    background-color: rgb(54, 53, 53);
+    background-color: #4D4D4D;
     font-family: 'Readex Pro', sans-serif;
 }
 
@@ -78,6 +78,7 @@ h3{
     justify-content: center;
     font-size: 2rem;
     text-align: center;
+    color: black;
 
 }
 
@@ -100,29 +101,32 @@ p{
 
 #a1{
 
-    background-color: lightgray;
+    background-color: #8C8C8C;
     width: 20rem;
     height: 20rem;
-    margin: auto;
+    margin: 3rem;
     margin-top: 5rem;
+    box-sizing: border-box;
 }
 
 #a2{
 
-    background-color: lightgray;
+    background-color: #8C8C8C;
     width: 20rem;
     height: 20rem;
     margin: 3rem;
     margin-top: 5rem;
+    box-sizing: border-box;
 }
 
 #a3{
 
-    background-color: lightgray;
+    background-color: #8C8C8C;
     width: 20rem;
     height: 20rem;
     margin: 3rem;
     margin-top: 5rem;
+    box-sizing: border-box;
 }
 
 #se2{
@@ -134,24 +138,27 @@ p{
 
 #a4{
 
-    background-color: lightgray;
+    background-color: #8C8C8C;
     width: 20rem;
     height: 20rem;
     margin: 3rem;
     margin-top: 5rem;
     max-height: 25rem;
+    box-sizing: border-box;
 }
 
 #a5{
 
-    background-color: lightgray;
+    background-color: #8C8C8C;
     width: 20rem;
     margin-top: 5rem;
+    margin: 3rem;
     justify-content: center;
     display: flex;
     content: "";
     clear: both;
     display: table;
+    box-sizing: border-box;
    
 }
 
@@ -161,12 +168,6 @@ p{
 
 }
 
-footer{
-    grid-area: ft; 
-    background-color: grey;
-    display:flex; 
-    justify-content:space-around;
-}
 
 #first{
     margin: 7rem;
@@ -195,20 +196,31 @@ h4{
 .footer{
     font-size: 1rem;
     text-align: center;
+    color: black;
+    text-decoration: none;
 
 }
 
 #wrapper2{
-    background-color: rgb(54, 53, 53);
-    font-family: 'Readex Pro', sans-serif;
+        display:grid;
+        grid-template-areas: 
+        'hd'
+        'h1'
+        'main2'
+        'ft';
+        grid-template-rows: 7.5rem 5rem 1fr 20rem;
+        width:100%;
+        background-color: #4D4D4D;
+        font-family: 'Readex Pro', sans-serif;
 
     
 }
 
 #main2{
     display: flex;
+    grid-area: main2;
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: auto;
     grid-template-areas:
     'rad1 rad2 rad3'
@@ -229,6 +241,7 @@ h1{
 
 p{
     display: flex;
+    padding: 0.5rem;
 
 }
 #rad1{
@@ -295,68 +308,94 @@ p{
     margin: 2rem;
 }
 
+#wrapper3{
+    display:grid;
+    grid-template-areas: 
+    'hd'
+    'main3'
+    'ft';
+    grid-template-rows: 7.5rem 1fr 20rem;
+    width:100%;
+    background-color: #4D4D4D;
+    font-family: 'Readex Pro', sans-serif;
+}
+
 #main3{
     display: grid;
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: auto;
     grid-template-areas:
     'as'
-    's1';
+    'fu'
+    'co'
+    ;
 
 }
 
 #aboutus{
     justify-content: center;
-    display: flex;
     grid-area: as;
     margin: 2rem;
 
 }
 
-#s1{
-    grid-area: s1;
+#findus{
+    grid-area: fu;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#contact{
+    justify-content: center;
+    grid-area: co;
+    margin: 2rem;
+
+}
+
+
+
+
+
+.ah{
+    font-size: 4rem;
+
+}
+
+.ap{
+    font-size: 2rem;
+
+}
+
+hr{
+    display: block;
+    color: white;
+    
+}
+
+footer{
+    grid-area: ft; 
+    background-color: #8C8C8C;
     display:flex; 
-    justify-content: center;
+    justify-content:space-around;
+    font-family:'Readex Pro', sans-serif;
+}
+
+
+#wrapper4{
+    display:grid;
     grid-template-areas: 
-    'a1 a2 a3'
-    ;
-
+    'hd'
+    'main4'
+    'ft';
+    grid-template-rows: 7.5rem 1fr 20rem;
+    width:100%;
+    background-color: #4D4D4D;
+    font-family: 'Readex Pro', sans-serif;
 }
 
-#a1{
-    grid-area: a1;
-    background-color: lightgray;
-    width: 20rem;
-    margin-top: 5rem;
-    margin: 3rem;
-    justify-content: center;
-    display: flex;
-    content: "";
-    clear: both;
-    display: table;
-}
+.tt{
+    margin: 5rem;
 
-#map{
-    width: 15rem;
-    margin: 2.5rem;
-
-}
-
-#a2{
-    grid-area: a2;
-    background-color: lightgray;
-    width: 20rem;
-    height: 20rem;
-    margin: 3rem;
-    margin-top: 5rem;
-}
-
-#a3{
-    grid-area: a3;
-    background-color: lightgray;
-    width: 20rem;
-    height: 20rem;
-    margin: 3rem;
-    margin-top: 5rem;
 }
